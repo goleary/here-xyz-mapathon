@@ -1,0 +1,1 @@
+mapshaper .\cb_2018_us_cbsa_500k.shp -join .\ACS_17_5YR_DP03_with_ann.csv keys="GEOID,GEO.id2" -o format=geojson output.json
